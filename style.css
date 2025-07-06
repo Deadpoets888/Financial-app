@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 40px;
+    background-color: #e6f0ff;
+    text-align: center;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.calc-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calc-container label {
+    display: block;
+    margin: 10px 0;
+}
+
+.calc-container input {
+    padding: 8px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.calc-container button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #004d99;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calc-container button:hover {
+    background-color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .calc-container input {
+        width: 100%;
+    }
+}
